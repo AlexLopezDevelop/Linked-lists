@@ -63,6 +63,13 @@ int main() {
                 break;
                 
             case CLI_MENU_PLAY_NEXT_SONG:
+                
+                if (playlist.last == playlist.first) { // Empty
+                    
+                    printf("\nEmpty nothing to play\n\n");
+                    break;
+                    
+                }
                     
                     PLIST_next(&playlist);
                     
@@ -71,6 +78,13 @@ int main() {
                 break;
                 
             case CLI_MENU_PLAY_PREVIOUS_SONG:
+                
+                if (playlist.last == playlist.first) { // Empty
+                    
+                    printf("\nEmpty nothing to play\n\n");
+                    break;
+                    
+                }
                     
                     PLIST_previous(&playlist);
                     
