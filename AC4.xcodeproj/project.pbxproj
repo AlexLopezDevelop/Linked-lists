@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AC32F5E4225F16E500661B45 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC32F5E3225F16E500661B45 /* main.c */; };
+		AC32F5ED225F382F00661B45 /* cli.c in Sources */ = {isa = PBXBuildFile; fileRef = AC32F5EC225F382F00661B45 /* cli.c */; };
+		AC32F5F0225F3D0F00661B45 /* plist.c in Sources */ = {isa = PBXBuildFile; fileRef = AC32F5EF225F3D0F00661B45 /* plist.c */; };
+		AC32F5F8225F58AB00661B45 /* song.c in Sources */ = {isa = PBXBuildFile; fileRef = AC32F5F7225F58AB00661B45 /* song.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,14 @@
 /* Begin PBXFileReference section */
 		AC32F5E0225F16E500661B45 /* AC4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AC4; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC32F5E3225F16E500661B45 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AC32F5EA225F379600661B45 /* song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = song.h; sourceTree = "<group>"; };
+		AC32F5EB225F382F00661B45 /* cli.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cli.h; sourceTree = "<group>"; };
+		AC32F5EC225F382F00661B45 /* cli.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cli.c; sourceTree = "<group>"; };
+		AC32F5EE225F3D0F00661B45 /* plist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = plist.h; sourceTree = "<group>"; };
+		AC32F5EF225F3D0F00661B45 /* plist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = plist.c; sourceTree = "<group>"; };
+		AC32F5F5225F448C00661B45 /* playlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playlist.h; sourceTree = "<group>"; };
+		AC32F5F6225F44BB00661B45 /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		AC32F5F7225F58AB00661B45 /* song.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = song.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				AC32F5E3225F16E500661B45 /* main.c */,
+				AC32F5EA225F379600661B45 /* song.h */,
+				AC32F5F7225F58AB00661B45 /* song.c */,
+				AC32F5EB225F382F00661B45 /* cli.h */,
+				AC32F5EC225F382F00661B45 /* cli.c */,
+				AC32F5EE225F3D0F00661B45 /* plist.h */,
+				AC32F5EF225F3D0F00661B45 /* plist.c */,
+				AC32F5F5225F448C00661B45 /* playlist.h */,
+				AC32F5F6225F44BB00661B45 /* node.h */,
 			);
 			path = AC4;
 			sourceTree = "<group>";
@@ -118,6 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC32F5F0225F3D0F00661B45 /* plist.c in Sources */,
+				AC32F5ED225F382F00661B45 /* cli.c in Sources */,
+				AC32F5F8225F58AB00661B45 /* song.c in Sources */,
 				AC32F5E4225F16E500661B45 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
